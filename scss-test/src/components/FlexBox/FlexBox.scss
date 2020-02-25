@@ -1,0 +1,36 @@
+.flexbox-container{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: cross-start;
+    align-content: stretch;
+    // min-height: 200px;
+
+    div{
+        // margin: auto;
+        margin: 2px;
+        border: 1px solid red;
+        // min-width: 200px;
+        // min-height: 50px;
+        text-align: center;
+        // flex: 3;
+    }
+
+
+    div:nth-child(even){
+        // flex: 2;
+    }
+
+    div:nth-child(2){
+        background-color:lightblue;
+        order: 12;
+        // align-self: center;
+    }
+
+    div:nth-child(odd){
+        background-color: lightgray;
+    }
+
+}
