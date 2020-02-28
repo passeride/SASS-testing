@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import './FlexBox.scss';
 
-class FlexBox extends Component{
+
+/**
+   This will be used to test Flexbox
+*/
+export default class FlexBox extends Component{
     render(){
         return(
             <div>
@@ -37,5 +41,3 @@ class FlexBox extends Component{
         );
     }
 }
-
-export default FlexBox;

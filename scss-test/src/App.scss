@@ -8,6 +8,20 @@ body{
 }
 .App {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    height: 100%;
+    min-height: 800px;
+
+    >div{
+        border: 2px double cyan;
+        flex: 5;
+    }
+
+    .NavBar{
+        flex: 1;
+    }
 
     nav{
         border: 1px solid lightgreen;
